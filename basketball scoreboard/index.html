@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"> </script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div class="num" id="num1-el">0</div>
+            <div class="btn-wrap">
+                <button onclick="addPointHandler('num1-el', 1)">+1</button>
+                <button onclick="addPointHandler('num1-el', 2)">+2</button>
+                <button onclick="addPointHandler('num1-el', 3)">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <!-- <h2 id="num2-el">8</h2> -->
+            <div class="num" id="num2-el">0</div>
+            <div class="btn-wrap">
+                <button onclick="addPointHandler('num2-el', 1)">+1</button>
+                <button onclick="addPointHandler('num2-el', 2)">+2</button>
+                <button onclick="addPointHandler('num2-el', 3)">+3</button>
+            </div>
+        </div>
+    </div>
+    <button onclick="resetGame()" class="reset ">New Game</button>
+</body>
+
+</html>
