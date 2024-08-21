@@ -1,0 +1,56 @@
+.Wrapper {
+    color: goldenrod;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: darkgreen;
+
+}
+
+button {
+    background-color: goldenrod;
+    color: darkgreen;
+    width: 150px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+
+}
+
+.inner-Wrapper {
+    color: white;
+    font-style: italic;
+}
+
+#player-el {
+    color: white;
+}
+
+
+h1 {
+    color: goldenrod;
+}
